@@ -1,0 +1,26 @@
+# Build artifacts
+*.o
+*.out
+*.exe
+a.out
+build/
+cmake-build-*/
+
+# Binaries
+db_test
+server
+
+# SQLite
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
