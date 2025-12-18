@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS problems(
-    id INTEGER PRIMARY KEY,
-    title TEXT
-);
