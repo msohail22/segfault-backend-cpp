@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch index.ts"
   },
   "type": "module",
   "repository": {
@@ -19,12 +20,16 @@
   "homepage": "https://github.com/msohail22/LowLevelLab-backend#readme",
   "description": "",
   "devDependencies": {
-    "@types/express": "^5.0.6",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.25",
     "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "express": "^5.2.1",
+    "@types/pg": "^8.16.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
     "pg": "^8.16.3"
   }
 }
